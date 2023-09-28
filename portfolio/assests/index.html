@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pradnya's portfolio</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./css/line-awesome.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+       
+        var data = google.visualization.arrayToDataTable([
+    
+          ['Task', 'Skills in web develpemnt'],
+          ['HTML',     30],
+          ['CSS',      20],
+          ['Bootstrap',  20],
+          ['PHP', 10],
+          ['JS',    20]
+        ]
+        );
+        
+
+        var options = {
+          backgroundColor:"#0B0B45",
+          title: 'My Skills ',
+          titleTextStyle:{color:"#FFF",fontSize:20},
+          pieHole:0.4,
+          legend:"none"
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        
+        chart.draw(data,options);
+      
+      }
+    </script>
+</head>
+<body>
+
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light navbar-dark fixed-top">
+        <div class="container flex-lg-column">
+          <a class="navbar-brand mx-lg-4 mb-lg-5" href="#">
+            <img src="./images/photo.jpeg" class="d-none d-lg-block rounded-circle" id="image" alt="">
+            <span class=" h1 fw-bold d-block" >Pradnya Patil     
+            </span>  
+            <p class="pose">Full stack Developer</p>
+        </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto flex-lg-column text-lg-center">
+             
+              <li class="nav-item">
+                <a class="nav-link" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#education">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#hobbies">Hobiies</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    <!--//Navbar-->
+    <!--Content wrapper-->
+    <div id="content-wrappper">
+        <!--Home-->
+        <section id="home" class="full-height">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1>HI THERE!!</h1>
+                        <h2>I'm Pradnya Patil</h2>
+                        <p> HARDWORKING AND PASSIONATE JOBSEEKER WITH STRONG ORGANIZATION SKILLS EAGER TO SECURE ENTRY-LEVEL INFORMATION TECHNOLOGY ENGINEER POSITION IN INDUSTRIAL ENVIRONMENT. READY TO HELP TEAM TO ACHIEVE COMPANY GOALS!</p>
+                        <br>
+                        <br>
+                        <a href="#about" class="btn btn-brand me-3">About my work</a>
+                        <a href="#" class="link-custom"> call: 83292724437</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--ABout-->
+        <section id="about"  class="full-height px-lg-5 ">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <h1>About Me</h1>
+                        <hr>
+                        <h5>Name: Pradnya Patil</h5>
+                        <h5>Age: 20</h5>
+                        <h5>Qualification: Doing Engineering</h5>
+                        <h5>Languages: English, Marathi, Hindi</h5>
+                        <h5>Skills:C,C++,JAVA,HTML,CSS,JAVASCRIPT,FIGMA,PHP</h5>
+                      <h5> Python,Bootstrap</h5>
+                        <h5>Databases:MongoDB,mysql</h5>
+
+                          
+                        <hr>
+                    </div>
+
+                </div>
+            </div>
+
+        
+        <!--//About-->
+        <!--Pie chart-->
+       
+         <!--Pie chart-->
+    
+    <script src="https://code.jquery.com/jquery-3.6.1.js"></script>
+    <script src="jquery.easypiechart.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/aos.js"></script>
+    <script src="./js/main.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <div id="donutchart" style="width: 900px; height: 500px; margin-left: -200px;"></div>
+    <div class="box">
+    <div class="row1 noMargin" style="position: relative; top: -800px;">
+      <div class="one">
+        <span style="font-size: 2rem; color: yellowgreen;">2+</span>
+          <h5>Experience of real-time projects</h5>
+      </div>
+      <div class="two">
+        <span style="font-size: 2rem; color: yellowgreen; ">7+</span>
+        <h5>self mini projects completed</h5>
+      </div>
+    </div>
+    <div class="row1 noMargin" style="position: relative; top: -750px; ">
+      <div class="three">
+        <span style="font-size: 2rem; color: yellowgreen; ">8+</span>
+            <h5>programming languages completed</h5>
+      </div>
+      <div class="four">
+        <span style="font-size: 2rem; color: yellowgreen; ">4+</span>
+            <h5>programming languages  studying</h5>
+            
+      </div>
+     
+    </div>
+    <div class="button">
+      <a href=""><button class="btn" style="position: relative;top: -750px; right: -100px;" >Download CV <i class="fa fa-download"></i></button></a>
+    </div>
+</div>
+
+</section>
+<!--//About-->
+
+
+<!--Education-->
+      <section class="education full-height px-lg-5" id="education" >
+              <h3 class="heading">MY Education</h3>
+              <hr>
+              <div class="box-container">
+
+                <div class="box1">
+                  <i class="fa fa-pencil-square"></i>
+                 <span>2018</span>
+                 <h3> SSC</h3>
+                 <p>Appasaheb Highschool Ajara
+                  95%
+                 </p>
+                </div>
+
+                <div class="box1">
+                  <i class="fa fa-laptop"></i>
+                  <span>2021</span>
+                  <h3> Second Year</h3>
+                  <p>Pune Vidhyarthi Griha's College of Engineering and Technology
+                    9.09
+                  </p>
+                 </div>
+              </div>
+                
+              <div class="box-container">
+                <div class="box1">
+                  <i class="fa fa-book"></i>
+                  <span>2020</span>
+                  <h3>HSC</h3>
+                  <p>Arts,Commerce & Junior College Ajara
+                    80%
+                  </p>
+                 </div>
+                
+                 <div class="box1">
+                  <i class="fa fa-graduation-cap"></i>
+                  <span>2022-23</span>
+                  <h3>Third Year</h3>
+                  <p>Pune Vidhyarthi Griha's College of Engineering and Technology
+                    Currently Doing!</p>
+                 </div>
+              </div>
+               
+              <div class="box-container">
+
+
+                 <div class="box1">
+                  <i class="fa fa-code"></i>
+                  <span>2021</span>
+                  <h3>First Year</h3>
+                  <p>Pune Vidhyarthi Griha's College of Engineering and Technology
+                      9.23
+                  </p>
+                  
+                 </div>
+                </div>
+                <hr>
+                <br><br><br>
+                
+      </section>
+<!--//Education-->
+
+<!--Hobbies-->
+<section class="hobbies full-height px-lg-5" id="hobbies" >
+  <h3 class="heading">MY Hobbies</h3>
+  <hr>
+  
+  <div id="div1">
+    <img class="hobby" src="./images/img5.png" alt="">
+    <h3>Coding</h3>
+  </div>
+
+  <div id="div2">
+    <img class="hobby" src="./images/img2.png" alt="">
+    <h3>Cooking</h3>
+  </div>
+
+  <div id="div3">
+    <img class="hobby" src="./images/img3.png" alt="">
+    <h3>Reading</h3>
+  </div>
+
+  <div id="div4"> 
+    <img class="hobby" src="./images/img4.png" alt="">
+    <h3>Badminton</h3>
+  </div>
+</section> 
+<!--//Hobbies-->
+
+<!--Contact-->
+<section id="contact"  class="full-height px-lg-5 ">
+<h3>Contact Me</h3><br><br>
+<hr>
+<h4 style="color: rgb(103, 175, 140);">Contact Details</h4><br>
+    <div class="info2">
+      <div class="content2">
+    <h4><i class="fa fa-envelope" style="color: rgb(74, 171, 124);"></i> pradnyatpatil2019@gmail.com</h4>
+    <h4><i class="fa fa-phone" style="color: rgb(62, 135, 100);"></i>  8329724437</h4>
+    <h4><i class="fa fa-map-marker" style="color: rgb(62, 173, 120);"></i> Pune,Maharashtra</h4><br>
+    </div>
+  <form action="" method="get">
+    <p>Name: 
+      <input type="text" required="name" placeholder="abc xyz" style="background-color: rgb(163, 165, 198);">
+     
+  </p>  
+  <p>Email:
+    <input type="email" name="email" id="email" required placeholder="abc@gmail.com" style="background-color: rgb(163, 165, 198);">
+</p> 
+  <p>
+     <hp>Project:</hp>
+      <textarea placeholder="Enter Your details" name="project" id="project" cols="100%" rows="5" style="background-color: rgb(163, 165, 198);"></textarea>
+  </p>
+  <button type="submit" class="btn" >send <i class="fa fa-paper-plane"></i></button>
+    </form>
+    
+</div>
+</section>
+<!--//Contact-->
+</div>
+</body>
+</html>
